@@ -5,7 +5,7 @@ var GPIOCtrl = require('./GPIOcontroller');
 
 
 app.get('/unlock/', function(req, res){ 
-    GPIOCtrl.unlockRelay;
+    GPIOCtrl.unlockRelay2;
  });
 
 //  NSURL *restURL = [NSURL URLWithString:@"http://raspberrypi-address:port/unlock/"];

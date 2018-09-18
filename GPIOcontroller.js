@@ -2,7 +2,7 @@ var gpio = require("pi-gpio");
 var gpioPin = 7;  
 var isOpened=false;
  
-function unlockRelay(){ 
+function unlockRelay2(){ 
 if(!isOpened){
 /* Open the door lock */
 	gpio.write(gpioPin, 1, function() {
@@ -18,5 +18,5 @@ if(!isOpened){
 }
 
 module.exports = {
-    unlockRelay
+    unlockRelay2
 }
