@@ -1,7 +1,7 @@
 var http = require('http'); 
 var express = require('express');
 var app = express();
-var GPIOCtrl = require('./GPIOcontroller.js');
+var GPIOCtrl = require('./GPIOcontroller');
 
 
 app.get('/unlock/', function(req, res){ 
