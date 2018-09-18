@@ -17,6 +17,6 @@ if(!isOpened){
     }
 }
 
-// module.exports = {
-//     unlockRelay
-// }
+module.exports = {
+    unlockRelay
+}
