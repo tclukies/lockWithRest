@@ -14,3 +14,7 @@ if(!isOpened){
 	}, 2000);
     }
 }
+
+module.exports = {
+    unlockRelay
+}
